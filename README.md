@@ -2,9 +2,14 @@
 
 <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=69fe1611-62b5-4d3a-b556-a96800b4f2bc"><img src="web/L0_thumbnail_play.png" alt="CO2006 introductory session" height="350" width="800"></a>
 
+
+<details><summary>Study Guide</summary>
+
 ## Study Guide
 
 The **study guide** is available :notebook_with_decorative_cover: [here](./CO2006-studyguide-18-19.pdf).
+
+</details>
 
 ## Module Structure and Timetable 
 
@@ -23,7 +28,14 @@ See below the timetable for the term:
 <img src="web/sampletimetable.png" alt="CO2006 timetable" height="500" width="800">
 
 
+<br />
+<br />
+<br />
+
+
+
 ### Lectures/Lab sessions
+
 
 #### Sprint 1. Agile practices and build automation
 
@@ -44,6 +56,14 @@ The goal for this sprint is a test on agile practices in software development, G
 | Gradle (Plugins - Java, Groovy) 		| :movie_camera: [Java projects (24:15)](https://app.pluralsight.com/player?course=gradle-fundamentals&author=kevin-jones&name=gradle-fundamentals-m5&clip=0&mode=live) |  | |  :movie_camera: [Typed tasks (11:36)](https://app.pluralsight.com/player?course=gradle-fundamentals&author=kevin-jones&name=gradle-fundamentals-m4&clip=0&mode=live) | 
 | Gradle (external dependencies, testing, wrapper) 		| :movie_camera: [External dependencies (24:15)](https://app.pluralsight.com/player?course=gradle-fundamentals&author=kevin-jones&name=gradle-fundamentals-m5&clip=0&mode=live) |  | | :movie_camera: [Testing (16:13)](https://app.pluralsight.com/player?course=gradle-fundamentals&author=kevin-jones&name=gradle-fundamentals-m7&clip=0&mode=live) | 
 
+
+<br />
+<br />
+<br />
+
+
+
+<details><summary><b>Sprint 2</b> (click me to expand)</summary>
 
 #### Sprint 2. Spring MVC (business logic and validation)
 
@@ -71,6 +91,14 @@ The goal of this Sprint is to develop a web application.
 
 
 
+<br />
+<br />
+<br />
+
+</details>
+
+<details><summary><b>Sprint 3</b> (click me to expand)</summary>
+
 #### Sprint 3. Quality Assurance (Behaviour-Driven Development)
 
 :warning: The links under this section will be enabled once sprint 3 starts.
@@ -94,6 +122,13 @@ The goal of this Sprint is to develop a web application:
 
 
 
+<br />
+<br />
+<br />
+
+</details>
+
+<details><summary><b>Sprint 4</b> (click me to expand)</summary>
 
 #### Sprint 4. Spring Data (JPA) and Spring Security
 
@@ -118,6 +153,13 @@ The goal of this Sprint is to develop a web application:
 | Spring Security  | :movie_camera: [Spring Security (54:14)]() |  :computer: [exercise 06](./sprint4.ex06/) <br/> :movie_camera: [explanation]() |  |  | Watch the lecture, fetch ex06 and watch its explanation. |  
 
 
+<br />
+<br />
+<br />
+
+</details>
+
+<details><summary><b>Final Test</b> (click me to expand)</summary>
 
 #### Final test (assessed coursework)
 
@@ -125,6 +167,13 @@ The goal of this Sprint is to develop a web application:
 * :nerd_face: Contents to be assessed in the test summarised here
   * The **revision session** will be on **Monday 10th December, 14:00, in KE LT2**
 * :computer: A sample test can be found [here]()
+
+
+<br />
+<br />
+<br />
+
+</details>
 
 ## Other resources
 
