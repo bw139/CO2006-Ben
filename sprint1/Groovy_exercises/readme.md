@@ -5,8 +5,7 @@
 ## Setup
 
 Create a new Groovy project:
-* In the STS, `File>Import`.
-* Select `File>New>Groovy Project` and follow the instructions, give a name to your project and click `Finish`.
+* In the STS, select `File>New>Groovy Project` and follow the instructions, give a name to your project and click `Finish`.
 
 A Groovy project should appear in your workspace.
 
