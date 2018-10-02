@@ -13,3 +13,5 @@ We'll record the first ten quickest teams/students on the score board that solve
 **Good luck!** 
 
 Once you solve this challenge, complete the exercises of the worksheet.
+
+Please register your solution in [this form](https://goo.gl/forms/2CtJObboPgn8SiHI2). Solutions will be processed in FIFO order (order of reception).
