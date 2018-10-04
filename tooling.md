@@ -28,7 +28,7 @@ Further considerations on the tools that we are going to use in CO2006 are descr
 
 ### Spring Tool Suite (STS) 
 
-* Download the Spring Tool Suite (STS) 3.9.5 available from [the Spring website](https://spring.io/tools).
+* Download the Spring Tool Suite (STS) 3.9.5 available from [the Spring website](https://spring.io/tools3/sts/legacy).
 * Unzip and move to:
   * Mac OS: `Applications` 
     * In some cases, you may not be able to install Groovy plugins, with the error being that you don't have write permissions on the installation folder. If you drag and drop the STS file to the `Applications` folder, you may be able to install the plugins.
