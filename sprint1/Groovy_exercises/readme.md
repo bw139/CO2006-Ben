@@ -9,7 +9,7 @@ Create a new Groovy project:
 
 A Groovy project should appear in your workspace.
 
-Create a Groovy file with the following contents under the source folder `src`:
+Create a Groovy file (file with extension `.groovy` or a Groovy class) with the following contents under the source folder `src`:
 
 ```groovy
 def name = "my name"
