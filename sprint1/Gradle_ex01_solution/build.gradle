@@ -1,0 +1,44 @@
+// EXERCISE A 
+task hello {
+	doLast {
+		println 'Hello world!'
+	}
+}
+
+task hello2 << { println 'Hello, world2!' }
+
+
+// EXERCISE B
+task learnGroovy << { println 'Learn Groovy'}
+task learnGradle << { println 'Learn Gradle'}
+learnGradle.dependsOn learnGroovy
+
+// EXERCISE C
+learnGroovy.doFirst {
+	println 'Install Eclipse IDE with Buildship'
+}
+
+// EXERCISE D
+7.times { counter ->
+	task "task$counter" << {
+		println "I'm task number $counter"
+	}
+}
+
+task1.finalizedBy task2, task3
+task2.finalizedBy task6
+task3.finalizedBy task4, task5
+task4.finalizedBy task6
+task5.finalizedBy task6
+
+// try ./gradlew -q task1
+
+// EXERCISE E
+task copyFiles (type: Copy) {
+	include { 
+		def prefix = it.file.name.subSequence(0,it.file.name.indexOf(".txt"))
+		prefix.toInteger() % 2 == 0 
+	}
+	from('src/main/resources/source') 
+	into('src/main/resources/target') 
+}
