@@ -44,8 +44,7 @@ Within a Bash terminal:
     * from STS: `right-click on project > Gradle > Refresh Gradle project`
 5. Create a Groovy class with a main method that prints `Hello, world!` on the output console. 
 6. Configure the property `mainClassName` of the plugin `application` as in previous exercises.
-7. Check that it can run as in previous exercises. For example from a terminal, using `gradle run`.
-8. Configure the eclipse project by adding the following code snippet to `build.gradle`:
+7. Configure the eclipse project by adding the following code snippet to `build.gradle`:
 
 
 ```gradle
@@ -63,7 +62,7 @@ eclipse {
 }
 ```
 
-9. Add the following code snippet, which configures the Groovy SDK.
+8. Add the following code snippet, which configures the Groovy SDK.
 
 ```gradle
 repositories {
