@@ -14,7 +14,7 @@ Create a Groovy file (file with extension `.groovy` or a Groovy class) with the 
 ```groovy
 def name = "my name"
 println name
-def date = new Date().format ("dd-mm-yyyy")
+def date = new Date().format ("dd-MM-yyyy")
 println date
 def fruitBag = ["orange","banana","coconut"]
 println fruitBag
