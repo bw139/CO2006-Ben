@@ -44,7 +44,21 @@ Within a Bash terminal:
     * from STS: `right-click on project > Gradle > Refresh Gradle project`
 5. Create a Groovy class with a main method that prints `Hello, world!` on the output console. 
 6. Configure the property `mainClassName` of the plugin `application` as in previous exercises.
-7. Configure the eclipse project by adding the following code snippet to `build.gradle`:
+
+7. Add the following code snippet, which configures the Groovy SDK.
+
+```gradle
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.4.15'
+}
+```
+
+8. Check that it can run as in previous exercises. For example from a terminal, using `gradle run`.
+9. Configure the eclipse project by adding the following code snippet to `build.gradle`:
 
 
 ```gradle
@@ -62,19 +76,7 @@ eclipse {
 }
 ```
 
-8. Add the following code snippet, which configures the Groovy SDK.
-
-```gradle
-repositories {
-	mavenCentral()
-}
-
-dependencies {
-	compile 'org.codehaus.groovy:groovy-all:2.4.15'
-}
-```
-
-9. Refresh the eclipse project configuration again and check that the name has changed. Check that by removing the project from the workspace and by importing it with Gradle, the project is left properly configured and that you can run it using `right-click on project > Run as..> Java application`, or with Gradle either from a terminal with `gradle run` or from the view `Gradle tasks`.
+10. Refresh the eclipse project configuration again and check that the name has changed. Check that by removing the project from the workspace and by importing it with Gradle, the project is left properly configured and that you can run it using `right-click on project > Run as..> Java application`, or with Gradle either from a terminal with `gradle run` or from the view `Gradle tasks`.
 
 ## Exercise D: Configuring Java Dependencies (:star: :star:)
 
