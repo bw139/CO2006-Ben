@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+repositories {
+	mavenCentral()
+}
+
+version = '1.0'
+
+// configuration of the application plugin
+mainClassName = 'labGradle.Log4jExample'
+
+// EXERCISE: set up the dependency to log4j and configure it
+
