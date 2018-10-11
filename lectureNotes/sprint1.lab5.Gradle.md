@@ -6,14 +6,15 @@ Gradle: build, dependency management, wrapper and testing
 In these notes, extracts from the Gradle documentation are summarised
 around four topics:
 
--   [Build lifecycle](./sprint1.lab5.Gradle#build-lifecycle)
+-   [Build lifecycle](./sprint1.lab5.Gradle.md#build-lifecycle)
 
--   [Dependency management](./sprint1.lab5.Gradledependency-management)
+-   [Dependency
+    management](./sprint1.lab5.Gradle.md#dependency-management)
 
--   [Gradle wrapper](./sprint1.lab5.Gradle#gradle-wrapper)
+-   [Gradle wrapper](./sprint1.lab5.Gradle.md#gradle-wrapper)
 
 -   [Testing Java
-    applications](./sprint1.lab5.Gradle#gradle-for-testing-java-projects)
+    applications](./sprint1.lab5.Gradle.md#gradle-for-testing-java-projects)
 
 Build lifecycle
 ---------------
@@ -392,3 +393,5 @@ Documentation
     mentioned above (test grouping, integration testing, skipping
     tests…)
 
+References
+----------
