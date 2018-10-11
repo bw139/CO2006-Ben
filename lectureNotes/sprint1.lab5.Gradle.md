@@ -71,7 +71,7 @@ In the following, we will use an example extracted from :books:
 [documentation on dependency
 management](https://docs.gradle.org/current/userguide/introduction_dependency_management.html):
 
-![image](figures/dependency-management-resolution.png)
+![image](figures/dependency-management-dependencies-to-modules.png)
 
 The example project builds Java source code. Some of the Java source
 files import classes from Google Guava, a open-source library providing
@@ -122,8 +122,8 @@ those additional modules, so called **transitive dependencies**.
     to build, test or run a module. For more information, see [Declaring
     Dependencies](https://docs.gradle.org/current/userguide/declaring_dependencies.html#declaring_dependencies).
 
--   **Module**: A piece of software that evolves over time e.g. Google
-    Guava. Every module has a name. Each release of a module is
+-   **Module**: A piece of software that evolves over time e.g.
+    `Google Guava`. Every module has a name. Each release of a module is
     optimally represented by a module version. For convenient
     consumption, modules can be hosted in a repository.
 
@@ -131,15 +131,15 @@ those additional modules, so called **transitive dependencies**.
     Metadata is the data that describes the module in more detail
     e.g. the coordinates for locating it in a repository, information
     about the project or required transitive dependencies. In Maven the
-    metadata file is called .pom, in Ivy it is called ivy.xml.
+    metadata file is called `.pom`, in Ivy it is called `ivy.xml`.
 
 -   **Module version**: A module version represents a distinct set of
-    changes of a released module. For example 18.0 represents the
-    version of the module with the coordinates com.google:guava:18.0. In
-    practice there’s no limitation to the scheme of the module version.
-    Timestamps, numbers, special suffixes like -GA are all allowed
-    identifiers. The most widely-used versioning strategy is [semantic
-    versioning](https://semver.org/).
+    changes of a released module. For example `18.0` represents the
+    version of the module with the coordinates `com.google:guava:18.0`.
+    In practice there’s no limitation to the scheme of the module
+    version. Timestamps, numbers, special suffixes like `-GA` are all
+    allowed identifiers. The most widely-used versioning strategy is
+    [semantic versioning](https://semver.org/).
 
 -   **Repository**: A repository hosts a set of modules, each of which
     may provide one or many releases indicated by a module version. The
@@ -392,3 +392,5 @@ Documentation
     mentioned above (test grouping, integration testing, skipping
     tests…)
 
+References
+----------
