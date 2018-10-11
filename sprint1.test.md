@@ -1,6 +1,8 @@
 ## Contents for TEST SPRINT 1
 
-The following syllabus will be covered in the test of sprint 1:
+The following syllabus will be covered in the test of sprint 1.
+
+:warning: You may find questions on all of the materials covered in :movie_camera: videos, :notebook_with_decorative_cover: lecture notes and :computer: lab exercises.
 
 ### Software develoment practices
 
