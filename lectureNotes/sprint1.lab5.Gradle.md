@@ -138,8 +138,8 @@ those additional modules, so called **transitive dependencies**.
     version of the module with the coordinates com.google:guava:18.0. In
     practice there’s no limitation to the scheme of the module version.
     Timestamps, numbers, special suffixes like -GA are all allowed
-    identifiers. The most widely-used versioning strategy is semantic
-    versioning.
+    identifiers. The most widely-used versioning strategy is [semantic
+    versioning](https://semver.org/).
 
 -   **Repository**: A repository hosts a set of modules, each of which
     may provide one or many releases indicated by a module version. The
