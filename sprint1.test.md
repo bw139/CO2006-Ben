@@ -4,6 +4,10 @@ The following syllabus will be covered in the test of sprint 1.
 
 :warning: You may find questions on all of the materials covered in :movie_camera: videos, :notebook_with_decorative_cover: lecture notes and :computer: lab exercises.
 
+When studying the syllabus using :movie_camera: **Pluralsight videos**, the following resources are available:
+* **slides**: in Pluralsight, click on the title of the course and go to tab `Exercise files`, click on `download exercise files`.
+* **transcript** (lecture notes):  in Pluralsight, click on the title of the course and go to tab `transcript`, which contains the transcript of the explanation given by the author in the video.
+
 ### Software develoment practices
 
 * waterfall methodology:
