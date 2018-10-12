@@ -1,0 +1,35 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+eclipse {
+	project {
+	  name='Gradle_ex03_solution'
+	  // to build the project
+	  buildCommand 'org.eclipse.jdt.core.javabuilder'
+	  buildCommand 'org.eclipse.buildship.core.gradleprojectbuilder'
+	  // to configure the project in the workspace
+	  natures 'org.eclipse.jdt.core.javanature',
+		'org.eclipse.jdt.groovy.core.groovyNature',
+		  'org.eclipse.buildship.core.gradleprojectnature'
+	}
+}
+
+// configuration of the application plugin
+mainClassName = 'html.HtmlRenderer'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.4.15'
+}
+
+// ./gradlew -q run -Pargs="Tomkiewicz Aleshia"
+// ./gradlew -q run -Pargs="Spinello Charisse"
+run {
+	if (project.hasProperty('args')) {
+		args project.args.split('\\s')
+	}
+}
