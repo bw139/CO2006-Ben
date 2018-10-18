@@ -36,6 +36,7 @@ See below the timetable for the term:
 
 ### Lectures/Lab sessions
 
+<details><summary><b>Sprint 1</b> (click me to expand)</summary>
 
 #### Sprint 1. Agile practices and build automation
 
@@ -64,7 +65,7 @@ The goal for this sprint is a test on agile practices in software development, G
 <br />
 <br />
 
-<details><summary><b>Sprint 2</b> (click me to expand)</summary>
+</details> 
 
 #### Sprint 2. Spring MVC (business logic and validation)
 
@@ -91,14 +92,13 @@ The goal of this Sprint is to develop a web application.
 
 
 
-
-<br />
-<br />
-<br />
-
-</details>
-
 <details><summary><b>Sprint 3</b> (click me to expand)</summary>
+
+
+<br />
+<br />
+<br />
+
 
 #### Sprint 3. Quality Assurance (Behaviour-Driven Development)
 
