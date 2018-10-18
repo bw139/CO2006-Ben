@@ -81,7 +81,7 @@ The goal of this Sprint is to develop a web application.
 
 | Topic | Lecture  (:warning: watch before the session) | Worksheet | Solution | Additional resources | 
 |--|--|--|--|--|
-| Introduction to Spring MVC				|  |  | | :movie_camera: [lecture](), <br/>  :notebook_with_decorative_cover: [slides]() | 
+| Introduction to Spring MVC				|  |  | | :movie_camera: [lecture](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b9485004-f43e-4da0-bd86-a97d00f85ec6), <br/>  :notebook_with_decorative_cover: [slides](./lectureNotes/sprint2.lecture.pdf) | 
 | Spring MVC (basics)					| :movie_camera: [lecture]() | :computer: [worksheet]() |  | | 
 | Spring MVC (model)						| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
 | Controllers (request mappings) 		| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
