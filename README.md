@@ -82,14 +82,13 @@ The goal of this Sprint is to develop a web application.
 
 | Topic | Lecture  (:warning: watch before the session) | Worksheet | Solution | Additional resources | 
 |--|--|--|--|--|
-| Introduction to Spring MVC				|  |  | | :movie_camera: [lecture](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b9485004-f43e-4da0-bd86-a97d00f85ec6), <br/>  :notebook_with_decorative_cover: [slides](./lectureNotes/sprint2.lecture.pdf) | 
-| Spring MVC (basics)					| :movie_camera: [lecture]() | :computer: [worksheet]() |  | | 
-| Spring MVC (model)						| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
-| Controllers (request mappings) 		| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
-| Views (JSP, JSTL)						| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
-| Controllers (forms)			 		| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
-| Spring Validation						| :movie_camera: [lecture]() | :computer: [worksheet]() |  | |
-
+| Introduction to Spring MVC				|  |  | | :movie_camera: [lecture](), <br/>  :notebook_with_decorative_cover: [slides](./sprint2/sprint2.lecture.pdf) | 
+| Spring MVC (basics)					| :movie_camera: [Introduction to Spring MVC (16:56)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m1-intro&clip=0&mode=live)<br/>:movie_camera: [Architecture (12:25)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m3-architecture&clip=0&mode=live) | :computer: [worksheet](./sprint2/SpringMvc_ex01/readme.md) | :computer: [solution](./sprint2/SpringMvc_ex01_solution/)  | | 
+| Controllers (request mappings) 		| :movie_camera: [Controllers (27:54)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m4-controllers&clip=0&mode=live) | :computer: [worksheet](./sprint2/SpringMvc_ex02/readme.md) | :computer: [solution](./sprint2/SpringMvc_ex02_solution/) | |
+| Views (JSP, JSTL)						| :movie_camera: [Views (18:06)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m5-views&clip=0&mode=live) | :computer: [worksheet]() | :computer: [solution]() | |
+| Controllers (forms)			 		| :movie_camera: [Forms and POST requests]() | :computer: [worksheet](./sprint2/SpringMvc_ex03/readme.md) | :computer: [solution](./sprint2/SpringMvc_ex03_solution/) |  |
+| Spring MVC (master/detail)						| :movie_camera: [Tag libraries (37:52)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m6-tags&clip=0&mode=live) | :computer: [worksheet](./sprint2/SpringMvc_ex04/readme.md) | :computer: [solution](./sprint2/SpringMvc_ex04_solution/) | |
+| Spring Validation 						| :movie_camera: [Validation (23:22)](https://app.pluralsight.com/player?course=springmvc-intro&author=bryan-hansen&name=springmvc-m7-validation&clip=0&mode=live) | :computer: [worksheet](./sprint2/SpringMvc_ex05/readme.md) | :computer: [solution](./sprint2/SpringMvc_ex05_solution/) | |
 
 
 <details><summary><b>Sprint 3</b> (click me to expand)</summary>
