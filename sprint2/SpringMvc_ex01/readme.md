@@ -12,7 +12,7 @@ In this exercise, you are offered two paths to solve it:
 * the direct way, in which the project is already configured for you on GitHub, you only have to fetch it, explore its structure and complete the code; and
 * the hard way, in which you can follow all the steps in the tutorial and build your first web application from scratch.
 
-For the hard way, jump to section [Setting the MVC infrastructure (the hard way)](https://github.com/uol-inf/CO2006-17-18/tree/master/sprint2/SpringMvc_ex01#setting-the-mvc-infrastructure-the-hard-way). Otherwise, keep on reading.
+For the hard way, jump to section [Setting the MVC infrastructure (the hard way)](#setting-the-mvc-infrastructure-the-hard-way). Otherwise, keep on reading.
 
 ## Setting the MVC infrastructure (the direct way)
 * Pull the last commit from the main repository on GitHub and import the project `sprint2/SpringMvc_ex01` as an **Eclipse project** in the STS.
@@ -78,7 +78,7 @@ The file `src/main/resources/application.properties` is used to configure parame
 * Terminate the web application graciously with `CTRL-C` in the terminal console
 
 
-
+(#setting-the-mvc-infrastructure-the-hard-way)
 ## Setting the MVC infrastructure (the hard way) 
 
 ### Configuring your application
