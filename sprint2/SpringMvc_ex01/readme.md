@@ -188,7 +188,7 @@ The resulting jar file is a fat jar that contains all the libraries that are nee
 
 ## Configure Pluralsight exercises
 
-Download the exercises used in the course **Spring MVC Fundamentals** (click on title and then download exercises from tab `Exercise files`)  on Pluralsight and configure them in Gradle using this [migration guide](./MigratingToGradle.md).
+Download the exercises used in the course **Spring MVC Fundamentals** (click on title and then download exercises from tab `Exercise files`)  on Pluralsight and configure them in Gradle using this [migration guide](./../MigratingToGradle.md).
 
 ## Submission
 
