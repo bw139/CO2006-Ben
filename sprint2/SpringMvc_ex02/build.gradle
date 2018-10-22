@@ -47,7 +47,7 @@ ext {
 dependencies {
 	// Spring Boot
 	compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
-	compile("org.springframework.boot:spring-boot-devtools")
+	compile("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
 	// JSP
 	compile("org.apache.tomcat.embed:tomcat-embed-jasper:$jasperVersion")
 	compile("javax.servlet:jstl:1.2")
