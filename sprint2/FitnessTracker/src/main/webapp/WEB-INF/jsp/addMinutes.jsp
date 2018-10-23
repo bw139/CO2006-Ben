@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>Add Minutes Exercised</h1>
-<form:form commandName="exercise">
+<form:form modelAttribute="exercise">
 	<table>
 		<tr>
 			<td>Minutes Exercise For Today:</td>

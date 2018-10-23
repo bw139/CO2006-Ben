@@ -1,32 +1,43 @@
 buildscript {
-	ext {
-		springBootVersion = '2.0.4.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
+    ext {
+        springBootVersion = '2.0.4.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
+		classpath("org.springframework:springloaded:1.2.8.RELEASE")
+    }
 }
 
 apply plugin: 'java'
-apply plugin: 'spring-boot'
 apply plugin: 'eclipse'
-apply plugin: 'maven'
+apply plugin: 'org.springframework.boot'
 
-group = 'com.pluralsight'
-version = '0.0.1-SNAPSHOT'
 
-description = """FitnessTracker Maven Webapp"""
+repositories {
+	mavenCentral()
+}
+
+
+eclipse {
+	project {
+	  buildCommand 'org.eclipse.jdt.core.javabuilder'
+	  buildCommand 'org.eclipse.buildship.core.gradleprojectbuilder'
+	  buildCommand 'org.springframework.ide.eclipse.core.springbuilder'
+	  buildCommand 'org.eclipse.wst.common.project.facet.core.builder'
+	  natures 'org.eclipse.jdt.core.javanature',
+		'org.eclipse.jdt.groovy.core.groovyNature',
+		  'org.eclipse.buildship.core.gradleprojectnature',
+		'org.springframework.ide.eclipse.core.springnature',
+		'org.eclipse.wst.common.project.facet.core.nature'
+	}
+}
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-
-repositories {
-     mavenCentral()
-}
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
@@ -34,3 +45,20 @@ dependencies {
     compile("org.apache.tomcat.embed:tomcat-embed-jasper:9.0.10")
 	compile("javax.servlet:jstl:1.2")
 }
+
+
+///////////////////////////////////////////////////////////////////////////////
+// PROJECT SPECIFIC
+///////////////////////////////////////////////////////////////////////////////
+
+// name of the jar to be generated
+jar {
+	baseName = 'com.pluralsight'
+	version = '0.0.1-SNAPSHOT'
+}
+
+description = """FitnessTracker Maven Webapp"""
+
+// name of the Eclipse project
+eclipse.project.name = 'FitnessTracker'
+
