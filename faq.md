@@ -11,15 +11,17 @@ If you are aware of a topic that is not listed above and that may be of interest
 
 ## Gradle version 
 
-Whenever an old version of Gradle is installed (< 4.9). Please email `sysadmin@mcs.le.ac.uk` with the following text:
+Whenever you find a machine with an old version of Gradle (< 4.9) installed, please email `sysadmin@mcs.le.ac.uk` with the following text:
 
 ```
 Dear sysadmin,
 
-I'm a student in CO2006 and I've been advised to report that the machine ${MACHINE_NUMBER} does not have the latest version of Gradle installed.
+I'm a student of CO2006 and I've been advised to report that the machine ${MACHINE_NUMBER} does not have the latest version (4.10) of Gradle installed.
 
 Thanks.
 ```
+
+Please replace `${MACHINE_NUMBER}` with the corresponding PC number.
 
 A temporary workaround to that problem is as follows:
 * Import a Gradle project as usual.
