@@ -31,7 +31,7 @@ You need to:
 
 #### B. Add Goal :star::star:
 
-Do the exercises proposed in method `GoalController:addGoal()`.
+Do the exercises proposed in method `GoalController:updateGoal()`.
 
 #### C. Add Exercises :star::star::star:
 
