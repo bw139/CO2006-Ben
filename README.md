@@ -179,7 +179,9 @@ The goal of this Sprint is to develop a web application:
 
 The tools that we are going to use in this module are reported [here](./tooling.md)   
 
+### FAQ
 
+The document with **frequently asked questions** is [here](./faq.md).
 
 
 
