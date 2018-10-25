@@ -43,7 +43,7 @@ The architecture of the boilerplate code available in the repository is as follo
 
 ### Implementing the HTTP request "/student" (GET)
 
-Create a @RequestMapping handler method in the class `IndexController` that corresponds to the GET HTTP request `/student`.  The method must return the view `form/form` with a fresh student instance of the class `Student` as the command object of the form in the view `form/form`.
+Create a `@RequestMapping` handler method in the class `IndexController` that corresponds to the GET HTTP request `/student`.  The method must return the view `form/form` with a fresh student instance of the class `Student` as the command object of the form in the view `form/form`.
 
 ### Implementing the HTTP request "/addStudent" (POST)
 
