@@ -24,6 +24,28 @@ The exercises are in file `src/main/java/labMVC/IndexController.java`. For each 
 
 The intent behind this exercise is to get used to explore documentation, in this case about [request mappings](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-ann-requestmapping).
 
+### Submission (mandatory)
+
+Submit via Blackboard [here](https://bit.ly/2CaYplN) (section `Assessment and Feedback > Lab sessions submissions`).
+
+
+The **submission procedure** is as follows: 
+1. If you worked in pairs, include a file `readme.md` with the usernames of the members under the root folder of the project. For example:
+
+```
+members:
+ab123
+zyx987
+```
+
+2. Zip your project.
+3. Submit the zipped file **individually** (each member has to submit it) by the end of the session using corresponding the link.
+
+Regarding **assessment**: It does not matter if your solution is only partially correct, what matters is to participate and attempt the exercises.﻿﻿ Feel free to finish them at home! :wink: As long as you do a genuine effort, you will get full marks for the lab sessions.
+
+Your solutions will be checked at random to ensure that your attempt is a genuine one and different from the solution provided. If a submission is found to be highly similar to the model answer released at the end of the session, the corresponding student will get a **plagiarism penalty**, involving a **zero mark** in the effort component of the whole module, and a **further reduction in the overall mark of the module** (and depending on the offence, of the degree classification).
+
+
 ## Optional Exercises
 
 ### Pluralsight exercise
@@ -42,6 +64,10 @@ The intent behind this exercise is to get used to explore documentation, in this
   * `http://localhost:8090/order/item?id=2` should display the value `2` in the view.
   * `http://localhost:8090/order/item?id=1&id=2` should display the value `[1,2]` in the view.
   
+
+## Submission
+
+Submit your project via Blackboard: [Assessment and Feedback > Lab session submissions](https://blackboard.le.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_1886021_1&course_id=_13121_1)
 
 ***
 &copy; Artur Boronat, 2016-17

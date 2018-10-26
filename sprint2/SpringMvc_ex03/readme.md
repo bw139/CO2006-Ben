@@ -49,6 +49,28 @@ Create a `@RequestMapping` handler method in the class `IndexController` that co
 
 Create another method in the class `IndexController` that processes the HTTP POST request that results from submitting the form on the view `form/form`. The HTTP POST request must return the view `form/result` with a model whose attributes correspond to the attributes of the `Student` instance attached to the POST request. 
 
+### Submission (mandatory)
+
+Submit via Blackboard [here](https://bit.ly/2CaYplN) (section `Assessment and Feedback > Lab sessions submissions`).
+
+
+The **submission procedure** is as follows: 
+1. If you worked in pairs, include a file `readme.md` with the usernames of the members under the root folder of the project. For example:
+
+```
+members:
+ab123
+zyx987
+```
+
+2. Zip your project.
+3. Submit the zipped file **individually** (each member has to submit it) by the end of the session using corresponding the link.
+
+Regarding **assessment**: It does not matter if your solution is only partially correct, what matters is to participate and attempt the exercises.﻿﻿ Feel free to finish them at home! :wink: As long as you do a genuine effort, you will get full marks for the lab sessions.
+
+Your solutions will be checked at random to ensure that your attempt is a genuine one and different from the solution provided. If a submission is found to be highly similar to the model answer released at the end of the session, the corresponding student will get a **plagiarism penalty**, involving a **zero mark** in the effort component of the whole module, and a **further reduction in the overall mark of the module** (and depending on the offence, of the degree classification).
+
+
 
 ## Additional Resources
  
