@@ -20,7 +20,7 @@ In the `MinutesController`, implement a handler method for the HTTP POST request
 
 To be done after [exercise 03](../SpringMvc_ex03/):
 
-1. Modify the layout of the HTML code in the view `addMinutes` in order to display the form in an [HTML table](https://www.w3schools.com/html/html_tables.asp).
+1. Modify the layout of the HTML code in the view `addMinutes` in order to display the form in an [HTML table](https://www.w3schools.com/html/html_tables.asp), which displays each field in a different row (vertically). The idea is to play with the layout of the HTML code in the view.
 2. Modify the functional feature `addGoal` so that each goal has a description. 
     * A user should be able to enter such description in the view `addGoal`
     * The description should be displayed meaningfully in the table of the view `getGoals`. At the moment only the identifier is displayed to identify a goal. 
