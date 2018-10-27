@@ -138,7 +138,7 @@ Note that we are not going to resolve conflicts in pairs. Once a pair is formed 
 
 ### Checkpoint
 
-The deadline is **Tue 30/10/2018, 23:59**.
+The deadline is **Tue 30 Oct, 23:59**.
 
 During the lab session we will show how to implement the first part (order creation), by applying what is used in exercises in the lab. 
 
@@ -160,7 +160,7 @@ We are going to consider that the software infrastructure for the assignment is 
 
 ### Release 
 
-The deadline is **Tue 6/11/2018, 23:59**
+The deadline is **Tue 6 Nov, 23:59**
 
 Follow the steps described above but submit a full implementation of all of the requirements explained above (Part 1 and Part 2).
 
