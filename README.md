@@ -71,10 +71,12 @@ The goal for this sprint is a test on agile practices in software development, G
 
 The goal of this Sprint is to develop a web application. 
 
-* :dart: [mini project worksheet](./miniproject.md) (the link will not work until the worksheet is released):
+* :dart: [mini project worksheet](./sprint2/miniproject.md) (the link will not work until the worksheet is released):
   * **marks: 100, weight: 20%** of overall mark
-  * [checkpoint and effort](): **Tue 30 Oct, 23:59, weight 10% of sprint 2**
-  * [release](): **Tue 6 Nov, 23:59, weight 90% of sprint 2**
+  * exercises in the lab: **after each session, weight 5% of sprint 2**
+  * :movie_camera: [explanation of worksheet](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=782c2163-8da7-4ac6-ac1e-a98600b626f8)
+  * [checkpoint](./sprint2/miniproject.md#checkpoint): **Tue 23 Oct, 23:59, weight 5% of sprint 2**
+  * [release](./sprint2/miniproject.md#release): **Tue 6 Nov, 23:59, weight 90% of sprint 2**
 * :loudspeaker: [solution miniproject (source code)]() (TBA)
   * [feedback form]()
 
