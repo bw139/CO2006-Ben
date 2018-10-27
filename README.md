@@ -75,7 +75,7 @@ The goal of this Sprint is to develop a web application.
   * **marks: 100, weight: 20%** of overall mark
   * exercises in the lab: **after each session, weight 5% of sprint 2**
   * :movie_camera: [explanation of worksheet](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=782c2163-8da7-4ac6-ac1e-a98600b626f8)
-  * [checkpoint](./sprint2/miniproject.md#checkpoint): **Tue 23 Oct, 23:59, weight 5% of sprint 2**
+  * [checkpoint](./sprint2/miniproject.md#checkpoint): **Tue 30 Oct, 23:59, weight 5% of sprint 2**
   * [release](./sprint2/miniproject.md#release): **Tue 6 Nov, 23:59, weight 90% of sprint 2**
 * :loudspeaker: [solution miniproject (source code)]() (TBA)
   * [feedback form]()
