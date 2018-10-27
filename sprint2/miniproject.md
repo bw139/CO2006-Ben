@@ -55,7 +55,7 @@ The :movie_camera: [demo of the system](https://leicester.cloud.panopto.eu/Panop
 
 ### Part 1: Order creation
 
-#### Navigation [10 marks]
+#### Navigation [10 marks] :star:
 
 For each of the requirements below you will have to: 
 
@@ -71,7 +71,7 @@ Apply the steps above to implement the following requirements:
 4. When clicking on `Edit` for a specific order in the view `orderMaster`, the user must be redirected to the view `orderDetail`. 
 5. When clicking on `Delete` for a specific order in the view `orderMaster`, the user must be redirected to the view `orderMaster`. 
 
-#### Business logic requirements [20 marks]
+#### Business logic requirements [20 marks] :star::star:
 
 These steps involve adding Java code in a method of a controller, implementing the functional requirements described below:
 
