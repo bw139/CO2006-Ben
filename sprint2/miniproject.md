@@ -145,7 +145,7 @@ During the lab session we will show how to implement the first part (order creat
 For submitting your solution, do as follows:
 * Open a terminal, change directory to the directory of your project and run `./gradlew clean`.
 * From a file manager, select the folder representing the directory of your project and zip it.
-* Submit it via Blackboard using the assignment `sprint2.checkpoint`.
+* Submit it via Blackboard using the assignment `Sprint 2 Checkpoint`, under `Assessment and Feedback`.
 
 The project must contain **NO compilation errors** and it must be executable with the command `./gradlew clean bootRun` (or `gradlew clean bootRun` for `MS Windows`). **NO MARKS will be awarded if this does not execute.**
 
@@ -163,6 +163,8 @@ We are going to consider that the software infrastructure for the assignment is 
 The deadline is **Tue 6 Nov, 23:59**
 
 Follow the steps described above but submit a full implementation of all of the requirements explained above (Part 1 and Part 2).
+
+Submit it via Blackboard using the assignment `Sprint 2 Release`, under `Assessment and Feedback`.
 
 The project must contain **NO compilation errors** and it must be executable with the command `./gradlew clean bootRun` (or `gradlew clean bootRun` for `MS Windows`). **NO MARKS will be awarded if this does not execute.**
 
