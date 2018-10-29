@@ -37,17 +37,19 @@ The architecture of the boilerplate code available in the repository is as follo
 
 ### Exercise: master/detail with JSPs and plain HTML.
 
+The goal is to implement the navigation model above and the business logic corresponding to CRUD operations.
+
 Add the following methods to the class `IndexController.java`:
-* `public String productDetail(@ModelAttribute("product") SimpleProduct product, @RequestParam(value="productId", required=false, defaultValue="-1") int productId)`
+* `public String productDetail(@ModelAttribute("product") SimpleProduct product, @RequestParam(value="productId", required=false, defaultValue="-1") int productId)`: shows the detail view of the product when adding/editing a product
   * add the corresponding `@RequestMapping` for declaring a `GET "/productDetail"` request
   * if `productId > 0` (that is, it is a modification), the method sets the properties of the variable `product` with the product with identifier `productId` in `productList`  
   * else, the identifier of `product` is set to `SimpleProduct.lastIdSimpleProduct.lastId`
-* `public String addProduct(@ModelAttribute("product") SimpleProduct product, Model model)`
+* `public String addProduct(@ModelAttribute("product") SimpleProduct product, Model model)`: creates a product when clicking on `Submit` 
   * add the `@RequestMapping` for a `POST "/addProduct"` request when the `Submit` button is clicked 
   * the product with id `productId` is removed from `productList`
   * a new product with information in the form is added to `productList`
   * the master view must display the resulting list of products
-* `public String deleteProduct(@RequestParam(value="productId", required=false, defaultValue="-1") int productId, Model model)`
+* `public String deleteProduct(@RequestParam(value="productId", required=false, defaultValue="-1") int productId, Model model)`: deletes a product
   * add the `@RequestMapping` for a `GET "/deleteProduct"` request
   * the product with id `productId` is removed from `productList`
   * the master view must display the remaining list of products
