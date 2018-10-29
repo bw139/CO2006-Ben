@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>New/edit Product Information</h2>
-<form:form method="POST" commandName="product" action="/addProduct">
+<form:form method="POST" modelAttribute="product" action="/addProduct">
    <table>
     <tr>
         <td><form:label path="id">Id</form:label></td>
